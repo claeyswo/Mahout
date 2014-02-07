@@ -12,4 +12,12 @@ class TestTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals("Foo", $name);
     }
+
+    public function testMethodNew()
+    {
+        $test = new \Mahout\Test();
+        $name = $test->method("Boo");
+
+        $this->assertEquals("Boo", $name);
+    }
 }
