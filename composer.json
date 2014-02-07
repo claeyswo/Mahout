@@ -1,0 +1,37 @@
+{
+    "name": "mahout/mahout",
+    "description": "A modular PHP webserver interface",
+    "version": "1.0.0-dev",
+    "type": "api",
+    "keywords": ["server", "http"],
+    "homepage": "http://github.com/Mahout/Mahout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas.niekis@gmail.com",
+            "homepage": "http://www.gcds.lt",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "http://github.com/Mahout/Mahout",
+        "issues": "http://github.com/Mahout/Mahout/issues",
+        "wiki": "http://github.com/Mahout/Mahout/wiki"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "*",
+        "sensiolabs/security-checker": "*",
+        "phpunit/phpunit": "*",
+        "sebastian/phpcpd": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mahout": "src/"
+        }
+    }
+}
