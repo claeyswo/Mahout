@@ -66,13 +66,15 @@
 
     <target name="phpmd-ci"
             description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
-        <exec executable="vendor/bin/phpmd" output="/dev/null" failonerror="true">
+        <exec executable="vendor/bin/phpmd" output="/dev/null" failonerror="false">
             <arg path="src"/>
             <arg value="xml"/>
-            <arg value="tools/phpmd/ruleset.xml"/>
+            <arg value="controversial,unusedcode,design,naming,codesize"/>
             <arg value="--reportfile"/>
             <arg value="build/artifacts/logs/pmd.xml"/>
-            <!-- These classes are already messes, exclude them for now... -->
+            <!-- These classes are too big... -->
+            <arg value="--exclude" />
+            <arg value="${basedir}/src/Mahout/Request" />
         </exec>
     </target>
 
