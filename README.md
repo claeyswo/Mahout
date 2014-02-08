@@ -1,4 +1,7 @@
-#Mahout, a modular PHP webserver interface
+Mahout, a modular PHP webserver interface
+[![Build Status](https://travis-ci.org/Mahout/Mahout.png?branch=build_testing)](https://travis-ci.org/Mahout/Mahout) [![Coverage Status](https://coveralls.io/repos/Mahout/Mahout/badge.png)](https://coveralls.io/r/Mahout/Mahout) [![Latest Stable Version](https://poser.pugx.org/mahout/mahout/v/stable.png)](https://packagist.org/packages/mahout/mahout) [![Total Downloads](https://poser.pugx.org/mahout/mahout/downloads.png)](https://packagist.org/packages/mahout/mahout) [![Latest Unstable Version](https://poser.pugx.org/mahout/mahout/v/unstable.png)](https://packagist.org/packages/mahout/mahout) [![License](https://poser.pugx.org/mahout/mahout/license.png)](https://packagist.org/packages/mahout/mahout)
+===========================
+
 
 Mahout provides a minimal, modular and adaptable interface for developing
 web applications in PHP.  By wrapping HTTP requests and responses in
