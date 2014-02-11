@@ -27,7 +27,8 @@
         "phpmd/phpmd": "*",
         "sensiolabs/security-checker": "*",
         "phpunit/phpunit": "*",
-        "sebastian/phpcpd": "*"
+        "sebastian/phpcpd": "*",
+        "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
         "psr-0": {

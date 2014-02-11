@@ -66,7 +66,7 @@
 
     <target name="phpmd-ci"
             description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
-        <exec executable="vendor/bin/phpmd" output="/dev/null" failonerror="false">
+        <exec executable="vendor/bin/phpmd" output="/dev/null" failonerror="true">
             <arg path="src"/>
             <arg value="xml"/>
             <arg value="controversial,unusedcode,design,naming,codesize"/>
